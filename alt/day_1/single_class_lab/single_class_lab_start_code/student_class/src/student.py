@@ -8,5 +8,5 @@ class Student:
         return "I can talk!"
 
     def say_favourite_language(self,language):
-        if language == "Python":
-            return "I love Python"
+        return "I love " + language
+       #return f"I love {language}" - solution given
